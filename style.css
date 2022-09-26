@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+    background-image: url(src/lelouch.jpg);
+    background-position: bottom;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #9f9b9b;
+}
+
+.header_ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    flex-grow: 1;
+    padding-right: 90px;
+}
+
+.header_ul>li {
+    margin: 15px;
+    box-shadow: 0 4px 4px -4px #eee;
+    line-height: 50px;
+    text-shadow: 0px 0px 8px #eee;
+    cursor: pointer;
+}
+
+li:hover {
+    scale: 1.08;
+    text-shadow: 0px 0px 8px #b60225;
+    box-shadow: 0 4px 4px -4px #b60225;
+    color: #b6022654;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.header_logo {
+    height: 80px;
+    margin-left: 30px;
+}
+
+.banner_photo {
+    width: 200px;
+    margin-left: -50px;
+}
+
+.banner_body {
+    display: flex;
+    color: rgb(101, 98, 98);
+    align-items: flex-end;
+    box-shadow: 15px 15px 20px -20px #eee;
+    width: calc(200px + 45%);
+    padding: 0 25px 25px 0;
+    border-radius: 0 16px 16px 0;
+}
+
+.photos {
+    width: calc(200px + 45%);
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.photos>img {
+    max-width: calc(25% - 10px);
+}
+
+footer {
+    background-color: #cecece0c;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_ul {
+    display: flex;
+    min-height: 60px;
+    padding: 25px;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer_ul>li {
+    margin: 0px 24px; 
+    cursor: pointer;
+}
